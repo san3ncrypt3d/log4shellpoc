@@ -3,14 +3,6 @@
 
 
 
-## Instructions
-
-Run:
-
-```bash
-docker run --rm -p 8080:8080 --name log4shell-app ghcr.io/guerzon/log4shellpoc:latest
-```
-
 Or build and run:
 
 ```
