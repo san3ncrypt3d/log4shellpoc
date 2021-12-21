@@ -12,7 +12,7 @@ public class URLsController {
 
 	@GetMapping("/")
 	public String slash() {
-		return "Hello from vulnerable app! The vulnerable endpoint is /api: just send your payload as your user agent!";
+		return "The app have an endpoint /api for logging -san3ncrypt3d";
 	}
 
     @GetMapping("/api")
