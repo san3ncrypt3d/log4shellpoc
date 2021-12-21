@@ -10,6 +10,6 @@ docker pull san3ncrypt3d/log4shellapp
 ```
 
 ```bash
-docker build . -t log4shellpoc
-docker run --rm -p 8080:8080 --name log4shell-poc-app log4shellpoc
+docker build . -t log4shellpocapp
+docker run --rm -p 8080:8080 --name log4shell-app log4shellpocapp
 ```
