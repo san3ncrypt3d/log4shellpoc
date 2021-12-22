@@ -12,13 +12,13 @@ public class URLsController {
 
 	@GetMapping("/")
 	public String slash() {
-		return "The app have an endpoint /api for logging -san3ncrypt3d";
+		return "This website is under developement, please check back later -san3ncrypt3d";
 	}
 
     @GetMapping("/api")
     public String slashapi(@RequestHeader("User-Agent") String ua) {
         logger.info("User agent used was: " + ua);
-        return "GET request to /api is successful.";
+        return "The call to /api is successful... Good luck";
     }
 
 }
